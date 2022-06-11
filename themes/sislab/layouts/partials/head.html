@@ -1,0 +1,9 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    {{ partialCached "css.html" . }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>

@@ -1,0 +1,7 @@
+/* @import '/themes/sislab/assets/css/codeblocks.css'; */
+@import 'tailwindcss/base';
+/* @import '/themes/sislab/assets/css/global.css';
+@import '/themes/sislab/assets/css/myutils.css';
+@import '/themes/sislab/assets/css/nav.css'; */
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
