@@ -2,7 +2,7 @@
 themeDir = 
 module.exports = {
   content: [
-    'themes/sislab/layouts/**/*.html',
+    'themes/tailwindcss-starter/layouts/**/*.html',
     'layouts/**/*.html',
     'content/**/*.html',
     'content/**/*.md',
